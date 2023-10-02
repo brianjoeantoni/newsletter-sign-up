@@ -1,0 +1,58 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* start color */
+.charcoal {
+  background-color: #36384e;
+}
+/* end color */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-checkmark {
+  padding-left: 0;
+}
+.container-checkmark li {
+  margin-bottom: 1rem;
+}
+.checkmark {
+  display: flex;
+  position: relative;
+}
+.checkmark p {
+  top: 0;
+}
+.checkmark::before {
+  content: url("/assets/images/icon-list.svg");
+  margin-right: 0.5rem;
+}
+
+.btn-main {
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  /* text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 0 0 20px #000000; */
+  /* background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fda085 51%,
+    #f6d365 100%
+  ); */
+  background-image: linear-gradient(
+    to right,
+    #fe8f6e 0%,
+    #fd5179 51%,
+    #fe8f6e 100%
+  );
+  color: white;
+  box-shadow: 0px 10px 20px #ff9ab2;
+}
+.btn-main:hover {
+  background-position: right center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>News Homepage</title>
+  </head>
+  <body class="charcoal h-screen w-screen center">
+    <div class="center overflow-x-hidden">
+      <div class="main flex rounded-3xl bg-white gap-0 p-4">
+        <div class="mt-12 mb-12 ml-8 mr-12">
+          <h1 class="text-5xl font-bold">Stay updated!</h1>
+          <p class="my-4">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul class="container-checkmark">
+            <li class="checkmark">
+              <p>Product discovery and building what matters</p>
+            </li>
+            <li class="checkmark">
+              <p>Measuring to ensure updates are a success</p>
+            </li>
+            <li class="checkmark"><p>And much more!</p></li>
+          </ul>
+          <p class="pt-4 text-xs mb-1 font-bold">Email address</p>
+          <form class="flex flex-col">
+            <input
+              class="bg-white pl-6 py-4 placeholder-black border border-black rounded-lg"
+              type="email"
+              placeholder="ash@loremcompany.com"
+            />
+            <button onclick="window.location.href='subscribed.html'">
+              <input
+                class="cursor-pointer btn-main py-4 rounded-lg mt-4"
+                type="submit"
+                value="Subscribe to monthly newsletter"
+                required
+              />
+            </button>
+          </form>
+        </div>
+        <div class="">
+          <img
+            class="object-scale-down rounded-3xl min-h-full"
+            src="assets/images/illustration-sign-up-desktop.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
