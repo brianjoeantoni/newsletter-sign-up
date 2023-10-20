@@ -3,11 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Subscribed!</title>
+    <title>News Homepage</title>
   </head>
-  <body></body>
+  <body class="charcoal h-screen w-screen center">
+    <div class="center overflow-x-hidden">
+      <div class="main flex rounded-3xl bg-white gap-0 p-4 w-96">
+        <div class="mt-12 mb-12 ml-8 mr-12">
+          <img src="/assets/images/icon-success.svg" alt="" />
+          <h1 class="font-bold text-5xl my-4">Thanks for Subscribing!</h1>
+          <p>
+            A confirmation email has been sent to
+            <span class="font-bold">ash@loremcompany.com</span>. Please open it
+            and click the button inside to confirm your subscription.
+          </p>
+          <a href="/index.html">
+            <button class="cursor-pointer btn-main py-4 rounded-lg mt-4 w-full">
+              Dismiss message
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <link rel="stylesheet" href="style.css" />
 </html>
