@@ -13,9 +13,9 @@
     />
     <title>News Homepage</title>
   </head>
-  <body class="charcoal h-screen w-screen center">
+  <body class="bg-color-main h-screen w-screen center lg:bg-white">
     <div class="center overflow-x-hidden">
-      <div class="main flex rounded-3xl bg-white gap-0 p-4">
+      <div class="main flex rounded-3xl bg-white gap-0 p-4 flex_col_reverse">
         <div class="mt-12 mb-12 ml-8 mr-12">
           <h1 class="text-5xl font-bold">Stay updated!</h1>
           <p class="my-4">
@@ -45,10 +45,17 @@
             />
           </form>
         </div>
-        <div class="">
+        <div class="image_desktop">
           <img
             class="object-scale-down rounded-3xl min-h-full"
             src="assets/images/illustration-sign-up-desktop.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_mobile">
+          <img
+            class="rounded-3xl h-full w-full object-cover"
+            src="assets/images/illustration-sign-up-mobile.svg"
             alt=""
           />
         </div>

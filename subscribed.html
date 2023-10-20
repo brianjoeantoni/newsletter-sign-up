@@ -13,10 +13,10 @@
     />
     <title>News Homepage</title>
   </head>
-  <body class="charcoal h-screen w-screen center">
-    <div class="center overflow-x-hidden">
+  <body class="bg-color-main h-screen w-screen center">
+    <div class="center overflow-x-hidden flex flex-col">
       <div class="main flex rounded-3xl bg-white gap-0 p-4 w-96">
-        <div class="mt-12 mb-12 ml-8 mr-12">
+        <div class="mt-12 mb-12 ml-12 mr-12">
           <img src="/assets/images/icon-success.svg" alt="" />
           <h1 class="font-bold text-5xl my-4">Thanks for Subscribing!</h1>
           <p>
@@ -25,12 +25,22 @@
             and click the button inside to confirm your subscription.
           </p>
           <a href="/index.html">
-            <button class="cursor-pointer btn-main py-4 rounded-lg mt-4 w-full">
+            <button
+              class="cursor-pointer btn-main py-4 rounded-lg mt-4 w-full btn_desktop"
+            >
               Dismiss message
             </button>
           </a>
         </div>
+        
       </div>
+      <a href="/index.html">
+        <button
+          class="cursor-pointer btn-main py-4 rounded-lg mt-4 px-24 btn_mobile"
+        >
+          Dismiss message
+        </button>
+      </a>
     </div>
   </body>
   <link rel="stylesheet" href="style.css" />
